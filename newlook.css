@@ -1,0 +1,86 @@
+/* new look (by dirk schlimm) */
+
+/* small -> 12px */
+
+body
+ { font-size: 12px; font-family: sans-serif; background: #eeeeee;
+font-family: Georgia, Times New Roman, Times, serif}
+
+<!--  { font-family: sans-serif; background-image: url(g.html);
+      background-repeat: repeat } -->
+
+H1, H2, H3, H4, P, UL, OL, DL, DT, DD, TH, TD, EM, STRONG, B
+  { font-family: sans-serif; ; font-family: Georgia, Times New Roman, Times, serif}
+
+LI, I 
+  { font-family: sans-serif ; font-family: Georgia, Times New Roman, Times, serif}
+
+H2 { font-weight: normal; color: darkred; ; font-family: Georgia, Times New Roman, Times, serif} 
+H3 { font-weight: normal;  color: darkred; ; font-family: Georgia, Times New Roman, Times, serif} 
+
+a:visited  { color: brown; text-decoration:none } 
+a:link  { color: brown; text-decoration:none }
+a:hover { color: brown; text-decoration: underline }
+A:active { color: black; }      /* active, red dark*/
+
+td.name{ background:#FFdf89; color:brown; font-size:28px; padding:3 ; font-family: sans-serif}
+td.line{ background:#FFdf89; color:brown; font-size:12px; padding:3 ; font-family: Georgia, Times New Roman, Times, serif}
+td.front{ background:ivory; color:black; font-size:22px;  padding:3 ; font-family: Georgia, Times New Roman, Times, serif}
+td.head{ background:#fff8cc; color:darkred; font-size:12px; font-weight:bold; padding:3 ; font-family: sans-serif} 
+td.head2{background:ivory; color:darkred; font-size:12px; font-weight:bold; padding:3 ; font-family: sans-serif} 
+td.headleer{ background:#fff8cc; font-size:11px; border-spacing:0 }
+td.blac{ background:#fff8cc; color:black; font-size:12px; padding:3 ; font-family: Georgia, Times New Roman, Times, serif}
+td.text{ background:ivory; color:black; font-size:12px; padding:3 ; font-family: Georgia, Times New Roman, Times, serif}
+td.subh{ background:ivory; color:black; font-size:12px; font-weight:bold; padding:3 ; font-family: Georgia, Times New Roman, Times, serif}
+td.subn{ background:ivory; color:black; font-size:12px; font-style:italic; padding:3 ; font-family: Georgia, Times New Roman, Times, serif}
+td.choose{ background:#ffff99; color:brown; font-size:12px; padding:3 ; font-family: sans-serif, Georgia, Times New Roman, Times, serif}
+td.endeli{ background:#FFdf89; color:brown; font-size:12px; padding:3 ; font-family: Georgia, Times New Roman, Times, serif}
+td.endere{ background:#FFdf89; color:white; font-size:12px; padding:3 ; font-family: Georgia, Times New Roman, Times, serif}
+td.leer{ background:ivory; color:white; font-size:11px; padding:0 }
+
+b.text { font-family: sans-serif; font-weight: bold; font-family: Georgia, Times New Roman, Times, serif}
+b.two { font-family: sans-serif; font-weight: normal; font-style: italic; font-family: Georgia, Times New Roman, Times, serif}
+b.choose{ background:#ffff99; color:brown; font-size:12px; padding:3 ; font-family: sans-serif, Georgia, Times New Roman, Times, serif}
+
+table.main {width: 55%; border-collapse: collapse }
+table.seco {width: 100%; border-spacing:0 }
+table.small {width: 100%; border-spacing:0; font-size:12px  }
+
+<!-- obsolete -->
+
+A.menu:link { color:brown; }        /* new link, blue */
+A.menu:visited { color: brown; }     /* visited link, violet */
+A.menu:hover { color:red; }       /* hover, red bright */
+A.menu:active { color:brown; }      /* active, red dark*/
+B.menu { font-weight: bold; color:brown}  /* current node, black */
+
+B.new { font-weight: bold; color:red}  /* current node, black */
+
+TH { vertical-align: top; }
+TD { vertical-align: top; }
+TD.sidebar { background:#FFdf89; color:brown; width:15% } /* sidebar, left */ 
+TD.footer { background:lightyellow; color:brown; font-size: 12px} /* like sidebar */ 
+TD.main { background:white; }   /* main body, right */
+TD.small { font-size: 12px; }     /* small (subnodes) */
+TD.menu { font-size: 12px; }
+TD.submenu { font-size: 12px }
+TD.read { align: left }
+
+DT { padding: 1ex 0ex; }           /* definition term */
+DT.first-child { padding: 0ex 0ex; }           /* first definition term */
+DT.first { padding: 0ex 0ex; }                 /* first definition term */
+
+P.bottom { font-size: 12px; }                 /* navigation bar, bottom */
+B.small { font-weight: bold; font-size: 12px;}  /* current node, black */
+div.small { font-size: 12px;}
+
+div.home { color:brown; font-size: 12px;}
+
+/* For Schedule */
+.free {background:white}
+.day {background:#fff8cc}
+.day2 {background:#ffffee}
+.today {background:orange}
+.table {background:#ffff99}
+.tablehigh {background:#9999ff}
+.tablehead {background:#FFdf89}
